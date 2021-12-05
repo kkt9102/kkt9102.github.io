@@ -10,14 +10,3 @@ main:
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
-side:
-  - title: "Home"
-    url: https://kkt9102.github.io/
-  - title: "About"
-    url: https://kkt9102.github.io/about/
-  - title: "Sample Posts"
-    url: /year-archive/
-  - title: "Sample Collections"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
