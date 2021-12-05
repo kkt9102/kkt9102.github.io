@@ -4,9 +4,9 @@ main:
     url: https://kkt9102.github.io/
   - title: "About"
     url: https://kkt9102.github.io/about/
-  - title: "Sample Posts"
+  - title: "Front"
     url: /year-archive/
-  - title: "Sample Collections"
+  - title: "Back"
     url: /collection-archive/
   - title: "Sitemap"
     url: /sitemap/
