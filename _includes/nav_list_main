@@ -30,7 +30,6 @@
                     {% endif %}
                 {% endfor %}
             </ul>
-        <span class="nav__sub-title">Back</span>
             <ul>
                 {% for category in site.categories %}
                     {% if category[0] == "Library" %}
@@ -42,6 +41,14 @@
                 {% for category in site.categories %}
                     {% if category[0] == "JavaScript" %}
                         <li><a href="/categories/JavaScript" class="">JavaScript ({{category[1].size}})</a></li>
+                    {% endif %}
+                {% endfor %}
+            </ul>
+        <span class="nav__sub-title">Back</span>
+            <ul>
+                {% for category in site.categories %}
+                    {% if category[0] == "Java" %}
+                        <li><a href="/categories/Java" class="">Java ({{category[1].size}})</a></li>
                     {% endif %}
                 {% endfor %}
             </ul>
