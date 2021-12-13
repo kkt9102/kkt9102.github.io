@@ -124,7 +124,7 @@ blockquote {
 }
 
 /* links */
-
+// a 버튼 hover 효과 등
 a {
   &:focus {
     @extend %tab-focus;
