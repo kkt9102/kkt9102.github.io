@@ -14,9 +14,11 @@ date: 2021-12-29
 last_modified_at: 2021-12-29
 ---
 
-<!-- <p>[##_Image|kage@eVD61x/btqYZ7F7v9Z/FtcaPX7CKmVchltC61pdH1/img.png|alignCenter|data-filename="제목 없음-1.png" data-origin-width="1902" data-origin-height="935" data-ke-mobilestyle="widthContent"|슬릭슬라이더 메인||_##]</p> -->
+
 - 슬라이드 라이브러리중 포트폴리오를 준비해오면서 가장 많이 사용한 플러그인인 'Slick Slider' 사용법을 간단하게 소개하려고 합니다. 분명 슬릭슬라이더는 라이센스 비용이 있던걸로 기억하는데 최근에 다시 확인해봤을때는 프리라이센스로 확인되었다...
 먼저 슬릭슬라이더를 사용하기 위해 먼저 아래의 코드를 선언해줍니다.
+
+# 1. 슬릭슬라이더 라이브러리 추가
 ```html
 <!-- 제이쿼리 불러오기 -->
 <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/2.2.4/jquery.min.js"></script>
@@ -27,7 +29,9 @@ last_modified_at: 2021-12-29
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/slick-carousel/1.9.0/slick-theme.min.css">
 ```
 
-- 해당 코드를 선언해주면 슬릭슬라이더를 사용하기위한 기초 작업이 끝난다. 그 후 슬라이더를 표현해주고 싶은 부분에 아래 코드를 넣어줍니다..
+# 2. 슬라이더를 표현할 html에 코드 추가하기
+- 해당 코드를 선언해주면 슬릭슬라이더를 사용하기위한 기초 작업이 끝난다. 그 후 슬라이더를 표현해주고 싶은 부분에 아래 코드를 넣어줍니다.
+
 ```html
     <!-- stlye 은 slick 영역 확인용 -->
     <div style="padding:300px 100px; background-color: skyblue;">
@@ -46,6 +50,7 @@ last_modified_at: 2021-12-29
     </div>
 ```
 
+# 3. 슬릭슬라이더 설정 스크립트 넣어주기
 - 그 다음 슬릭슬라이더 플러그인 설정값인 아래의 코드를 선언해줍니다.
 ```javascript
 <script>
