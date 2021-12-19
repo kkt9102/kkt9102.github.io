@@ -473,4 +473,4 @@
 .grid__item:hover .archive__item-title.no_toc::after {width:100%;}
 .grid__item:hover .archive__item-title.no_toc::before {width:100%;}
 
-.archive__item-title a[rel="permalink"]::before {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
+.archive__item-title a[rel="permalink"] {white-space: nowrap; overflow: hidden; text-overflow: ellipsis;}
