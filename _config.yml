@@ -20,7 +20,7 @@ title                    : "삽질하는 개발자 위키" # 블로그 타이을
 title_separator          : "-" 
 subtitle                 : 삽질만이 살길이다
 name                     : "김기태" # 
-description              : "An amazing website."
+description              : "삽질하는 개발자 기록실"
 url                      : # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : # the subpath of your site, e.g. "/blog"
 repository               : # GitHub username/repo-name e.g. "mmistakes/minimal-mistakes"
