@@ -1,6 +1,9 @@
 ---
-layout: category
-title: JavaScript
+title: "JavaScript"
+layout: archive
+permalink: categories/JavaScript
+author_profile: true
+sidebar_main: true
 ---
 
 
