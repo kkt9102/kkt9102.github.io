@@ -2,11 +2,11 @@
 main:
   - title: "Home"
     url: https://kkt9102.github.io/
-  - title: "About"
-    url: https://kkt9102.github.io/about/
-  - title: "Front"
-    url: /year-archive/
-  - title: "Back"
-    url: /collection-archive/
-  - title: "Sitemap"
-    url: /sitemap/
+  # - title: "About"
+  #  url: https://kkt9102.github.io/about/
+  # - title: "Front"
+  #  url: /year-archive/
+  # - title: "Back"
+  #  url: /collection-archive/
+  - title: "Category"
+    url: /category/
