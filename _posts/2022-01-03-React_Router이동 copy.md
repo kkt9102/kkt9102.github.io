@@ -25,7 +25,7 @@ last_modified_at: 2022-01-03
 
 - npm 을 이용한 설치
 ```console
-npm install react-router-dom
+npm install react-router-dom --save
 ```
  - yarm 을 이용한 설치
 ```console
