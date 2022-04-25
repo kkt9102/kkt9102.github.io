@@ -84,6 +84,8 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
     - 1. 변수명에 사용가능한 특수문자는 _(언더스코어) 와 $(달러 기호) 뿐이다.
     - 2. 변수명의 첫 시작은 문자, _, $ 로만 가능하다. 숫자로는 시작할 수 없다.
     - 3. JavaScript의 예약어로는 변수를 만들 수 없다.
+    
+    
 ```javascript
     // 사용가능
     var _test = 1;
@@ -97,8 +99,9 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
     var !test = 1;
     var @test = 1;
     var test 1 = 1;
-
 ```
+
+
 
 <table>
     <thead>
@@ -174,6 +177,8 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
     </tbody>
 </table>
 
+
+
 - 위의 테이블 목록은 JavaScript에서 쓰이는 예약어 종류들입니다. 위의 예약어들은 단독적으로 변수명 지정이 불가능 합니다. ES5부터 변수(식별자)를 만들 때 유니코드 문자를 허용하므로 한글이나 일본어 등 다양한 언어로 변수 설정이 가능하지만 추후 개발과 유지보수를 생각했을 때에는 사용하지 않는 것이 바람직합니다.   
 또한 변수명은 알파벳 대·소문자를 구분합니다.
 ```javascript
@@ -242,59 +247,51 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
 ## JavaScript 의 데이터 타입
 - ES6의 JavaScript에서는 7개의 데이터 타입을 제공한다. 이 데이터 타입은 원시 타입(primitive type)과 객체 타입(object/reference type)으로 분류할 수 있다.
 
-|구분|데이터 타입|설명|
-|---|---|---|
-|원시 타입|숫자(number)타입|숫자. 정수와 실수 구분 없이 하나의 숫자 타입만 존재|
-||문자열(string)타입|문자열|
-||불리언(boolean)타입|논리적 true(참)과 false(거짓)|
-||undefined 타입|var 키워드로 선언된 변수에 암묵적으로 할당되는 값|
-||null 타입|값이 없다는 것을 의도적으로 명시할 때 사용하는 값|
-||심벌(stymbol)타입|ES6에서 추가된 7번째 타입|
-|객체 타입||객체, 함수, 배열 등|
+<div>
+  <table>
+      <thead>
+          <tr>
+              <th>타입 구분</th>
+              <th>데이터 타입</th>
+              <th>설명</th>
+          </tr>
 
-<table>
-    <thead>
-        <tr>
-            <th>타입 구분</th>
-            <th>데이터 타입</th>
-            <th>설명</th>
-        </tr>
-
-    </thead>
-    <tbody>
-        <tr>
-            <td row-span="5">원시타입</td>
-            <td>숫자(number) 타입</td>
-            <td>숫자. 정수와 실수 구분 없이 하나의 숫자 타입만 존재</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>문자열(string) 타입</td>
-            <td>문자열</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>불리언(boolean) 타입</td>
-            <td>논리적 true(참)와 false(거짓)</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>undefined 타입</td>
-            <td>var 키워드로 선언된 변수에 암묵적으로 할당되는 값</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>null 타입</td>
-            <td>값이 없다는 것을 의도적으로 명시할 때 사용되는 값</td>
-        </tr>
-        <tr>
-            <td></td>
-            <td>심벌(symbol) 타입</td>
-            <td>ES6에서 추가된 7번째 타입</td>
-        </tr>
-        <tr>
-            <td colspan="2">객체 타입</td>
-            <td>객체, 함수, 배열 등</td>
-        </tr>
-    </tbody>
-</table>
+      </thead>
+      <tbody>
+          <tr>
+              <td row-span="5">원시타입</td>
+              <td>숫자(number) 타입</td>
+              <td>숫자. 정수와 실수 구분 없이 하나의 숫자 타입만 존재</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>문자열(string) 타입</td>
+              <td>문자열</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>불리언(boolean) 타입</td>
+              <td>논리적 true(참)와 false(거짓)</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>undefined 타입</td>
+              <td>var 키워드로 선언된 변수에 암묵적으로 할당되는 값</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>null 타입</td>
+              <td>값이 없다는 것을 의도적으로 명시할 때 사용되는 값</td>
+          </tr>
+          <tr>
+              <td></td>
+              <td>심벌(symbol) 타입</td>
+              <td>ES6에서 추가된 7번째 타입</td>
+          </tr>
+          <tr>
+              <td colspan="2">객체 타입</td>
+              <td>객체, 함수, 배열 등</td>
+          </tr>
+      </tbody>
+  </table>
+</div>
