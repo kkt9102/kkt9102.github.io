@@ -97,8 +97,9 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
     var !test = 1;
     var @test = 1;
     var test 1 = 1;
-
 ```
+
+---
 
 <div style="width:100%;">
 <table class="table_type_1">
@@ -168,8 +169,11 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
 </table>
 </div>
 
+
 - 위의 테이블 목록은 JavaScript에서 쓰이는 예약어 종류들입니다. 위의 예약어들은 단독적으로 변수명 지정이 불가능 합니다. ES5부터 변수(식별자)를 만들 때 유니코드 문자를 허용하므로 한글이나 일본어 등 다양한 언어로 변수 설정이 가능하지만 추후 개발과 유지보수를 생각했을 때에는 사용하지 않는 것이 바람직합니다.   
 또한 변수명은 알파벳 대·소문자를 구분합니다.
+
+---
 
 <div style="width:100%;">
 <table class="table_type_1">
@@ -209,6 +213,7 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
 
 - 위의 테이블에 ECMAScript 6 이후에 추가될 예정인 예약어 목록의 경우 식별자로 사용이 가능하나 strict mode에서는 사용이 불가능 합니다.
 
+---
 
 <div style="width:100%;">
 <table class="table_type_1">
@@ -280,6 +285,8 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
 이 이름들 역시 식별자로 사용하지 않도록 합니다.   
 해당 목록에 있는 이름들은 사용해도 오류가 출력되지는 않지만   
 JavaScript가 가진 본래 기능을 사용할 수 없게 됩니다.
+
+---
 
 ```javascript
     const Test = 1;
