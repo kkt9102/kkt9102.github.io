@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-04-24
-last_modified_at: 2022-04-24
+last_modified_at: 2022-04-25
 ---
 
 <div style="text-align:center; color:#ffffff;">
@@ -119,9 +119,9 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
             <td>const</td>
         </tr>
         <tr>
-            <td>eontiune</td>
+            <td>contiune</td>
             <td>debugger</td>
-            <td>defauklt</td>
+            <td>default</td>
             <td>delect</td>
             <td>do</td>
             <td>else</td>
