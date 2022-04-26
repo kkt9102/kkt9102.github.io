@@ -12,7 +12,7 @@ toc: true
 toc_sticky: true
 
 date: 2022-04-24
-last_modified_at: 2022-04-25
+last_modified_at: 2022-04-26
 ---
 
 <div style="text-align:center; color:#ffffff;">
@@ -84,8 +84,6 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
     - 1. 변수명에 사용가능한 특수문자는 _(언더스코어) 와 $(달러 기호) 뿐이다.
     - 2. 변수명의 첫 시작은 문자, _, $ 로만 가능하다. 숫자로는 시작할 수 없다.
     - 3. JavaScript의 예약어로는 변수를 만들 수 없다.
-    
-    
 ```javascript
     // 사용가능
     var _test = 1;
@@ -99,11 +97,19 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
     var !test = 1;
     var @test = 1;
     var test 1 = 1;
+
 ```
 
-
-
-<table>
+<div style="width:100%;">
+<table class="table_type_1">
+    <colgroup>
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+    </colgroup>
     <thead>
         <tr>
             <th colspan="6">JavaScript 예약어 종류</th>
@@ -111,76 +117,170 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
     </thead>
     <tbody>
         <tr>
-            <td>await</td>
             <td>break</td>
             <td>case</td>
             <td>catch</td>
             <td>class</td>
             <td>const</td>
+            <td>continue</td>
         </tr>
         <tr>
-            <td>contiune</td>
             <td>debugger</td>
             <td>default</td>
-            <td>delect</td>
+            <td>delete</td>
             <td>do</td>
             <td>else</td>
+            <td>export</td>
         </tr>
         <tr>
-            <td>enum</td>
-            <td>export</td>
             <td>extends</td>
             <td>false</td>
             <td>finally</td>
             <td>for</td>
+            <td>function</td>
+            <td>if</td>
         </tr>
         <tr>
-            <td>fuction</td>
-            <td>if</td>
-            <td>implements</td>
             <td>import</td>
             <td>in</td>
             <td>instanceof</td>
-        </tr>
-        <tr>
-            <td>interface</td>
-            <td>let</td>
             <td>new</td>
             <td>null</td>
-            <td>package</td>
-            <td>private</td>
-        </tr>
-        <tr>
-            <td>proptected</td>
-            <td>public</td>
             <td>return</td>
-            <td>super</td>
-            <td>static</td>
-            <td>seitch</td>
         </tr>
         <tr>
+            <td>super</td>
+            <td>switch</td>
             <td>this</td>
             <td>throw</td>
             <td>true</td>
             <td>try</td>
-            <td>typeof</td>
-            <td>var</td>
         </tr>
         <tr>
-            <td>vide</td>
+            <td>typeof</td>
+            <td>var</td>
+            <td>void</td>
             <td>while</td>
             <td>with</td>
             <td>yield</td>
-            <td>-</td>
-            <td>-</td>
         </tr>
     </tbody>
 </table>
-
-
+</div>
 
 - 위의 테이블 목록은 JavaScript에서 쓰이는 예약어 종류들입니다. 위의 예약어들은 단독적으로 변수명 지정이 불가능 합니다. ES5부터 변수(식별자)를 만들 때 유니코드 문자를 허용하므로 한글이나 일본어 등 다양한 언어로 변수 설정이 가능하지만 추후 개발과 유지보수를 생각했을 때에는 사용하지 않는 것이 바람직합니다.   
 또한 변수명은 알파벳 대·소문자를 구분합니다.
+
+<div style="width:100%;">
+<table class="table_type_1">
+    <colgroup>
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+        <col width="20%">
+    </colgroup>
+    <thead>
+        <tr>
+            <th colspan="6">ECMAScript 6 이후에 추가될 예정인 예약어 종류</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>await</td>
+            <td>enum</td>
+            <td>implements</td>
+            <td>package</td>
+            <td>protected</td>
+            <td>interface</td>
+        </tr>
+        <tr>
+            <td>private</td>
+            <td>public</td>
+            <td></td>
+            <td></td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+- 위의 테이블에 ECMAScript 6 이후에 추가될 예정인 예약어 목록의 경우 식별자로 사용이 가능하나 strict mode에서는 사용이 불가능 합니다.
+
+
+<div style="width:100%;">
+<table class="table_type_1">
+    <colgroup>
+        <col width="25%">
+        <col width="25%">
+        <col width="25%">
+        <col width="25%">
+    </colgroup>
+    <thead>
+        <tr>
+            <th colspan="6">미리 정의된 전역 변수와 전역 함수</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>argument</td>
+            <td>Array</td>
+            <td>Boolean</td>
+            <td>Date</td>
+        </tr>
+        <tr>
+            <td>decodeURI</td>
+            <td>decodeURIComponent</td>
+            <td>encodeURI</td>
+            <td>encodeURIComponent</td>
+        </tr>
+        <tr>
+            <td>Error</td>
+            <td>eval</td>
+            <td>EvalError</td>
+            <td>Function</td>
+        </tr>
+        <tr>
+            <td>Infinity</td>
+            <td>isFinite</td>
+            <td>isNaN</td>
+            <td>JSON</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>NaN</td>
+            <td>Number</td>
+            <td>Object</td>
+        </tr>
+        <tr>
+            <td>parseFloat</td>
+            <td>parseInt</td>
+            <td>RangeError</td>
+            <td>ReffernceError</td>
+        </tr>
+        <tr>
+            <td>RegExp</td>
+            <td>String</td>
+            <td>SyntaxError</td>
+            <td>TypeError</td>
+        </tr>
+        <tr>
+            <td>undefined</td>
+            <td>URIError</td>
+            <td></td>
+            <td></td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+- 위의 표는 JavaScript에서 미리 정의된 전역 변수와 전역 함수 목록입니다.   
+이 이름들 역시 식별자로 사용하지 않도록 합니다.   
+해당 목록에 있는 이름들은 사용해도 오류가 출력되지는 않지만   
+JavaScript가 가진 본래 기능을 사용할 수 없게 됩니다.
+
 ```javascript
     const Test = 1;
     const test = 2;
@@ -216,7 +316,7 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
 - 리터럴(literal) : 리터럴은 사람이 이해할 수 있는 문자 또는 약속된 기호를 사용해 값을 생성하는 표기법(notation)을 말한다.
 
 |리터럴 종류|예시|비고|
-|---|---|---|
+|-----|-----|-----|
 |정수 리터럴|100||
 |부동소수점 리터럴|10.5|
 |2진수 리터럴|0b01000001|0b로 시작|
@@ -226,7 +326,7 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
 |불리언 리터럴|true<br/>false||
 |null 리터럴|null||
 |undefined 리터럴|undefined||
-|객체 리터럴|{ name: 'Lee', address: 'Suwon'}||
+|객체 리터럴|{ name: 'Kim', address: 'Suwon'}||
 |배열 리터럴|[1, 2, 3]||
 |함수 리터럴|function() {}||
 |정규 표현식 리터럴|/[A-Z]+/g||
@@ -247,51 +347,114 @@ JavaScript를 통하여 악성코드를 웹 사이트에 심는 것도 매우 �
 ## JavaScript 의 데이터 타입
 - ES6의 JavaScript에서는 7개의 데이터 타입을 제공한다. 이 데이터 타입은 원시 타입(primitive type)과 객체 타입(object/reference type)으로 분류할 수 있다.
 
-<div>
-  <table>
-      <thead>
-          <tr>
-              <th>타입 구분</th>
-              <th>데이터 타입</th>
-              <th>설명</th>
-          </tr>
+|구분|데이터 타입|설명|
+|----|-----|-------|
+|원시 타입|숫자(number)타입|숫자. 정수와 실수 구분 없이 하나의 숫자 타입만 존재|
+|원시 타입|문자열(string)타입|문자열|
+|원시 타입|불리언(boolean)타입|논리적 true(참)과 false(거짓)|
+|원시 타입|undefined 타입|var 키워드로 선언된 변수에 암묵적으로 할당되는 값|
+|원시 타입|null 타입|값이 없다는 것을 의도적으로 명시할 때 사용하는 값|
+|원시 타입|심벌(stymbol)타입|ES6에서 추가된 7번째 타입|
+|객체 타입||객체, 함수, 배열 등|
 
-      </thead>
-      <tbody>
-          <tr>
-              <td row-span="5">원시타입</td>
-              <td>숫자(number) 타입</td>
-              <td>숫자. 정수와 실수 구분 없이 하나의 숫자 타입만 존재</td>
-          </tr>
-          <tr>
-              <td></td>
-              <td>문자열(string) 타입</td>
-              <td>문자열</td>
-          </tr>
-          <tr>
-              <td></td>
-              <td>불리언(boolean) 타입</td>
-              <td>논리적 true(참)와 false(거짓)</td>
-          </tr>
-          <tr>
-              <td></td>
-              <td>undefined 타입</td>
-              <td>var 키워드로 선언된 변수에 암묵적으로 할당되는 값</td>
-          </tr>
-          <tr>
-              <td></td>
-              <td>null 타입</td>
-              <td>값이 없다는 것을 의도적으로 명시할 때 사용되는 값</td>
-          </tr>
-          <tr>
-              <td></td>
-              <td>심벌(symbol) 타입</td>
-              <td>ES6에서 추가된 7번째 타입</td>
-          </tr>
-          <tr>
-              <td colspan="2">객체 타입</td>
-              <td>객체, 함수, 배열 등</td>
-          </tr>
-      </tbody>
-  </table>
-</div>
+
+## 숫자(number) 타입
+- C나 JAVA의 경우 정수와 실수를 구분해서 int, long, float, double 등과 같은 다양한 숫자타입을 제공하지만   
+JavaScript에서는 오직 하나의 숫자 타입만 존재합니다.   
+즉 JavaScript에서는 모든 수를 실수로 처리하며, 정수만 표현하기 위한 데이터 타입은 JavaScript에선 별도로 존재하지 않습니다.
+```javascript
+    // 예시
+    var inteeger = 10;    // 정수
+    var double = 10.12;   // 실수
+    var negative = -20;   // 음의 정수
+``` 
+
+- 또한 JavaScript는 2진수, 8진수, 16진수를 표현하기 위한 데어터 타입을 제공하지 않기 때문에    
+아래의 코드들의 값들을 console.log 로 확인을 해보면 모두 10진수로 해석됩니다.
+```javascript
+    var binart = 0b01000001;  // 2진수
+    var octal = 0o101;        // 8진수
+    var hex = 0x41;           // 16진수
+
+    console.log(blnart);
+    // 65;
+    console.log(octal);
+    // 65;
+    console.log(hex);
+    // 65;
+    console.log(blanrt === octal);
+    // true;
+    console.log(octal === hex);
+    // true;
+```
+
+- JavaScript의 숫자 타입은 정수만을 위한 타입이 따로 없고 모든 수를 실수로 처리하기 때문에    
+정수로 표시되는 수 끼리 나누더라도 실수가 나올 수 있습니다.
+```javascript
+    console.log(1 === 1.0);
+    // true;
+    console.log(4 / 2);
+    // 2;
+    console.log(3 / 2);
+    // 1.5;
+```
+
+- JavaScript의 숫자 타입에서는 추가적으로 3가지 특별한 값도 표현할 수 있습니다.
+    - Infinity : 양의 무한대
+    - -Infinity : 음의 무한대
+    - NaN : 산술 연산 불가(not-a-number)
+- 단 주의할 점은 JavaScript는 대·소문자를 구분하기 때문에 NaN을 NAN, Nan, nan 등 처럼 표기하게 되면 Error가 발생합니다.
+
+
+## 문자열(string) 타입
+- 문자열 타입은 말 그대로 텍스트 데이터를 나타내는데 사용됩니다. 문자열은 0개 이상의 16비트 유니코드 문자 (UTF-16)의 집합으로 전 세계 대부분의 문자를 표현할 수 있습니다.
+- 문자열을 표현할 때는 작은따옴표(''), 큰따옴표(""), 백틱(``) 으로 텍스트를 감싸주어 사용합니다.    
+백틱의 경우는 ES6에서 사용됩니다.
+
+
+
+## 불리언(boolean) 타입
+- 불리언 타입은 오직 **논리적인 참(true) 과 거짓(fasle)만 존재** 합니다.
+
+
+
+## undefined 타입
+- undefined 타입의 값은 **undefined** 가 유일합니다.
+- var 키워드로 선언한 변수는 암묵적으로 undefined로 초기화 되는데, 이는 변수 선언에 의해 확보된 메모리 공간을 처름 할당이 이루어 질 때 까지 빈 상태로 두지 않고 JavaScript엔진이 undefined로 초기화 하기 때문입니다.    
+즉 변수를 선언한 이후 값을 할당하지 않은 변수를 참조하면 undefined가 반환됩니다.
+
+
+
+## null 타입
+- null 타입의 값도 undefined 처럼 null 이 유일합니다.
+- null 또한 대·소문자를 구분하는 JavaScript 때문에 Null, NULL 등과 다릅니다.    
+만약 변수에 null을 할당하면 변수가 이전에 참조하던 값을 더 이상 참조하지 않겠다는 의미이며,   
+이는 이전에 할당되어 있던 값에 대한 참조를 명시적으로 제거하는 것을 의미합니다.   
+JavaScript엔진은 누구도 참조하지 않는 메모리 공간에 대해 가비지 콜렉션을 수행합니다.   
+또한 함수가 유요한 값을 반환할 수 없는 경우에도 명시적으로 null 을 반환하기도 합니다.
+```javascript
+    // 유요한 값을 반환할 수 없는 경우
+    var foo = 'Kim';
+
+    foo = null;
+```
+
+
+
+## 심벌(Symbol) 타입
+- 심벌 타입은 ES6에서 추가된 7번째 타입으로써 변경이 불가능한 원시 타입의 값 입니다.
+- 심벌 타입은  **다른 값과 중복되지 않는 유일무이한 값** 이기 때문에 주로 이름이 충돌할 위험이 없는 객체의 유일한 프로퍼티 키를 만들기 위해 사용됩니다.
+- 심벌 이외의 원시 값은 리터럴을 통해 생성하지만 특별하게 심벌의 경우는 **Symbol** 함수를 호출해서 생성합니다.   
+이 때 생성된 심벌 값은 외부에 노출이 되지 않으며, 다른 값과 절대 중복되지 않는 유일무이한 값 입니다.
+```javascript
+    // 심벌 값 생성
+    var key = Symbol('key');
+    console.log(typeof key);
+    // symbol;
+
+    // 객체 생성
+    var obj = {};
+
+    obj[key] = 'value';
+    console.log(obj[key]);
+```
