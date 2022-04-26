@@ -5,7 +5,7 @@ excerpt: "패키지 설치 모듈인 yarn 알아가기"
 categories:
     - React
 tags:
-    - [React]
+    - [React, npm, node]
 # MarkDown 문법에서 목차를 우측에 보여줄지를 결정
 toc: true
 # 목차부분이 마우스 스크롤시 고정으로 따라오게 할지를 결정
