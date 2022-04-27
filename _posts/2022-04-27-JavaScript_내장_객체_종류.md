@@ -89,7 +89,7 @@ last_modified_at: 2022-04-27
         </tr>
         <tr>
             <td>SyntaxError</td>
-            <td>문법이 어긋날 때 발생한오류를 표현하는 객체/td>
+            <td>문법이 어긋날 때 발생한오류를 표현하는 객체</td>
         <tr>
             <td>TypeError</td>
             <td>값이 기대한 타입이 아닐 떄 발생한 오류를 표현하는 객체</td>
