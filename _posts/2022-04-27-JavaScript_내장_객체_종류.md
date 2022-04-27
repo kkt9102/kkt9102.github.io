@@ -20,6 +20,8 @@ last_modified_at: 2022-04-27
 
 ## JavaScript 내장 객체 종류 (ES5 기준)
 - 다음의 표는 ES5 기준의 내장 생성자 종류입니다.
+
+
 <div style="width:100%;">
 <table class="table_type_1">
     <colgroup>
@@ -100,8 +102,10 @@ last_modified_at: 2022-04-27
 </table>
 </div>
 
-## ES6부터 추가된 내장 생성자 목록
+## ES6부터 추가된 내장 생성자 목록 (ES6 기준)
 - 아래의 표들은 ES6부터 추가된 내장 생성자 목록입니다.
+
+
 <div style="width:100%;">
 <table class="table_type_1">
     <colgroup>
@@ -185,6 +189,43 @@ last_modified_at: 2022-04-27
         <tr>
             <td>WeakSet</td>
             <td>약한 참조를 유지하는 고유한 데이터 집합을 생성</td>
+        </tr>
+    </tbody>
+</table>
+</div>
+
+## 기타 내장 객체
+- 기타 내장 객체는 내장 생성자가 생성하지는 않지만 기본적으로 사용할 수 있는 내장 객체 목록입니다.
+
+
+<div style="width:100%;">
+<table class="table_type_1">
+    <colgroup>
+        <col width="20%">
+        <col width="80%">
+    </colgroup>
+    <thead>
+        <tr>
+            <th>내장 객체</th>
+            <th>설명</th>
+        </tr>
+    </thead>
+    <tbody>
+        <tr>
+            <td>전역 객체</td>
+            <td>프로그램 어디에서나 사용할 수 있는 객체</td>
+        </tr>
+        <tr>
+            <td>JSON</td>
+            <td>JSON을 처리할 수 있는 기능을 제공</td>
+        </tr>
+        <tr>
+            <td>Math</td>
+            <td>수학적인 함수와 상수를 제공</td>
+        </tr>
+        <tr>
+            <td>Reflect</td>
+            <td>프로그램의 흐름을 가로채는 기능을 제공</td>
         </tr>
     </tbody>
 </table>
