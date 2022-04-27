@@ -2,6 +2,22 @@
    SINGLE PAGE/POST
    ========================================================================== */
 
+// Custom Start
+.table_type_1 {
+  table-layout: fixed;
+  max-width: 100%;
+  border-collapse: collapse;
+  border:1px solid #3d4046;
+  tbody {
+    tr {
+      td {
+        font-size:1em;
+      }
+    }
+  }
+}
+// Custon End
+
 #main {
   @include clearfix;
   margin-left: auto;
