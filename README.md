@@ -26,7 +26,7 @@ Minimal Mistakes is a flexible two-column Jekyll theme, perfect for building per
 
 ## Notable features
 
-- Bundled as a "theme gem" for easier installation/upgrading.
+- Bundled as a "theme gem" for easier installation/upgrading. 여기인가
 - Compatible with GitHub Pages.
 - Support for Jekyll's built-in Sass/SCSS preprocessor.
 - Nine different skins (color variations).
